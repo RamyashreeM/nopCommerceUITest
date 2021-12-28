@@ -1,0 +1,26 @@
+{
+  "name": "nopcommerceuitest",
+  "version": "1.0.0",
+  "description": "nopcommerce is an e-commerce application. This project provides automation for this web application using JavaScript langugae and Cypress tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamyashreeM/nopCommerceUITest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamyashreeM/nopCommerceUITest/issues"
+  },
+  "homepage": "https://github.com/RamyashreeM/nopCommerceUITest#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
