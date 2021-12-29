@@ -18,9 +18,15 @@
   "homepage": "https://github.com/RamyashreeM/nopCommerceUITest#readme",
   "devDependencies": {
     "cypress": "^9.2.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^1.18.3"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json"
+    }
   }
+
 }
