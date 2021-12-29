@@ -3,5 +3,5 @@
  # Setup
  # Ready to use features
  This repo provides below ready-to-use features.
- (1) Cucumber Integration
- (2) Cucumber Report
+ - Cucumber Integration
+ - Cucumber Report
