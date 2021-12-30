@@ -1,4 +1,6 @@
 {
-    "testFiles": "**/*.feature"
-    
+    "testFiles": "**/*.feature",
+    "env": {
+        "URL": "https://google.com"
+    }
 }
