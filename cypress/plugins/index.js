@@ -16,12 +16,23 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+
+//const configFile = require('../../cypress.json')
+const dotenvPlugin = require('cypress-dotenv');
 module.exports = (on, config) => {
+  //console.log("##DEFAULT##"+JSON.parse(config));
+  //console.log("##CONFIG##"+JSON.parse(configFile));
+
+  config = dotenvPlugin(config)
+
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
   on('file:preprocessor', cucumber())
+  //console.log(config);
+  return config
 }
 
 const cucumber = require('cypress-cucumber-preprocessor').default
+
 
 

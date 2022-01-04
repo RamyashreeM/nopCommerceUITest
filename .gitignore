@@ -1,3 +1,5 @@
 node_modules
 reports
 cypress/cucumber-json
+cypress.env.json
+.env
